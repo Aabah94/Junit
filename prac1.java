@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.agiletestware.bumblebee.annotations.testng.BumblebeeTestNGReporter;
 
-@Bumblebee(testlab = "Root\\TestBumbleBee", testset = "class_annotations", testplan = "Subject\\TestBumbleBee")
+//@Bumblebee(testlab = "Root\\TestBumbleBee", testset = "class_annotations", testplan = "Subject\\TestBumbleBee")
 
 public class prac1 {
 	WebDriver driver;
