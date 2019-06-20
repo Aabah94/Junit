@@ -7,8 +7,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.agiletestware.bumblebee.annotations.testng.BumblebeeTestNGReporter;
+import com.agiletestware.bumblebee.annotations.BooleanValue;
+import com.agiletestware.bumblebee.annotations.Bumblebee;
 
-//@Bumblebee(testlab = "Root\\TestBumbleBee", testset = "class_annotations", testplan = "Subject\\TestBumbleBee")
+
+@Bumblebee(testlab = "Root\\TestBumblebee", testset = "TestBumblebee", testplan = "Subject\\TestBumblebee")
 
 public class prac1 {
 	WebDriver driver;
